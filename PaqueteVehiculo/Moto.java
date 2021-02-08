@@ -1,4 +1,4 @@
-package PaqueteVehiculo;
+package t11.PaqueteVehiculo;
 
 public class Moto extends Vehiculo{
 	int cilindrada;
