@@ -18,12 +18,9 @@ public class Profesor {
 
 	public void leerCursos() {
 		Scanner in = new Scanner(System.in);
+		System.out.println("Introducir los cursos");
 		for (int i = 0; i < cursos.length; i++) {
 			cursos[i] = in.nextLine();
-		}
-
-		for (int i = 0; i < cursos.length; i++) {
-			System.out.println(cursos[i]);
 		}
 
 	}

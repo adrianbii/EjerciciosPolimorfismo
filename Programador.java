@@ -22,14 +22,11 @@ public class Programador {
 		Scanner in = new Scanner(System.in);
 		//inicializar el array
 		lenguajes= new String [nl];
+		System.out.println("Introduce los lenguajes");
 		for (int i = 0; i < nl; i++) {
-			System.out.println("Introduce los lenguajes");
+			
 			lenguajes[i] = in.nextLine();
 
-		}
-		
-		for (int i = 0; i < lenguajes.length; i++) {
-			System.out.println(lenguajes[i]);
 		}
 	}
 
